@@ -5,9 +5,6 @@
  */
 package introjava;
 
-import java.util.Random;
-import java.util.Scanner;
-
 /**
  *
  * @author Damian
@@ -58,5 +55,7 @@ public static void main(String[] args) {
                     dig3 += 1;
                     break;
                 case 4:
+            }
+        }
     }
-
+}
