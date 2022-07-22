@@ -19,21 +19,20 @@ public class Ejercicio_Extra_2 {
         int C = 2;
         int D = 3;
         
-        AsignacionDeValores(int A, int B, int C, int D);
+        AsignacionDeValores(A,B,C,D);
                             
     }
     
     public static void AsignacionDeValores(int A, int B, int C, int D){
         
-        B=C;
+        int aux=B;
+        B=C; 
         C=A;
         A=D;
-        D=B;
+        D=aux;
         
-        System.out.print("A " +A);
-        System.out.print(", B " +B);
-        System.out.print(", C " +C);
-        System.out.println(", D " +D);
+        System.out.print("A " +A +", B " +B +", C " +C +", D " +D);
+        System.out.println();
     }
 
 }

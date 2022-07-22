@@ -68,24 +68,28 @@ public class Ejercicio_21 {
         
         String [] [] Coordenadas;
         Coordenadas = new String [3] [3];
-        int k=-1;
+        int k=0;
         int l=0;
-                
+        int aux=0;
+        
         for (int i = 0; i < 10; i++) {
-            k+=1;
             if (k==3){
                 break;
             }else {
                     for (int j = 0; j < 10; j++) {
 
                     if (MatrizM [i][j] == MatrizP [k][l] ) {
-
-                        Coordenadas [i][j] = i +"," + j;
+                        aux=j;
+                        Coordenadas [k][l] = i +"," + j;
                         if (l==2) {
                             l=0;
+                            k+=1;
                             break;
                         }
                         l+=1;   
+                    }else if(j== aux-2){
+                        l=0;
+                        k=0;
                     }
                 }
             }    
