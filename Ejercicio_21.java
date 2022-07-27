@@ -43,7 +43,7 @@ public class Ejercicio_21 {
         }
     }
     
-        public static void RellenarYMostrarMatrizP( int MatrizP [][]){
+    public static void RellenarYMostrarMatrizP( int MatrizP [][]){
         
             Scanner Leer= new Scanner(System.in);
             
@@ -64,7 +64,7 @@ public class Ejercicio_21 {
         }
     }
         
-        public static void BuscarMatriz( int MatrizM [][], int MatrizP [][]){
+    public static void BuscarMatriz( int MatrizM [][], int MatrizP [][]){
         
         String [] [] Coordenadas;
         Coordenadas = new String [3] [3];

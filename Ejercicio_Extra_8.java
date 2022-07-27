@@ -24,7 +24,7 @@ public class Ejercicio_Extra_8 {
 
         for (i = 1; i < 10; i++) {
             
-            System.out.println("ingrse un número");
+            System.out.println("ingrese un número");
             int num = Leer.nextInt();
             
             if (num%2==0){

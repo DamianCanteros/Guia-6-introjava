@@ -25,7 +25,7 @@ public class Ejercicio_Extra_3 {
     }
     public static void DetectarVocal(String letra){
         
-        if ( letra.equals("A") || letra.equals("E") || letra.equals("I") || letra.equals("O") || letra.equals("U")){
+        if ( letra.equalsIgnoreCase("A") || letra.equalsIgnoreCase("E") || letra.equalsIgnoreCase("I") || letra.equalsIgnoreCase("O") || letra.equalsIgnoreCase("U")){
             
             System.out.println("la letra ingresada es una vocal");
         }else {

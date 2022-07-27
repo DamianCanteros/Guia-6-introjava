@@ -4,7 +4,7 @@ matriz A es anti simétrica cuando ésta es igual a su propia traspuesta, pero c
 signo. Es decir, A es anti simétrica si A = -AT. La matriz traspuesta de una matriz A se
 denota por AT y se obtiene cambiando sus filas por columnas (o viceversa).
  */
-package javaguia6;
+package introjava;
 
 import java.util.Scanner;
 
